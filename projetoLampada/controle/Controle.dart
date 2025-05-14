@@ -6,27 +6,17 @@ class Controle implements IControle {
   Bateria bateria;
   Controle(this.bateria);
   @override
-  void desligar() {
-    // TODO: implement desligar
-  }
+  void desligar() {}
 
   @override
-  void ensiarSinal(int number, bool estado) {
-    // TODO: implement ensiarSinal
-  }
+  void ensiarSinal(int number, bool estado) {}
 
   @override
-  void itensidade() {
-    // TODO: implement itensidade
-  }
+  void itensidade() {}
 
   @override
-  void ligar() {
-    // TODO: implement ligar
-  }
+  void ligar() {}
 
   @override
-  void mais30m() {
-    // TODO: implement mais30m
-  }
+  void mais30m() {}
 }
