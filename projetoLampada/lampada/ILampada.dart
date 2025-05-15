@@ -1,5 +1,8 @@
+import '../bateria/Bateria.dart';
+
 abstract class Ilampada {
-  void luz(){}
-  void sinal(int number, bool estado){}
-  void botao(){}
+  late Bateria bateria;
+
+  void entrada_sinal(int id) {}
+  void botao_ligar_desligar() {}
 }

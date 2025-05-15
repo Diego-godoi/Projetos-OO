@@ -5,7 +5,7 @@ class Bateria{
 
   estado(){
     if(carga > 0){
-      print("Bateria carregada...")
+      print("Bateria carregada...");
       return;
     }
     exit(1);

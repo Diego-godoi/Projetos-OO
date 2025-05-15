@@ -8,6 +8,6 @@ class Bateria {
     if (carga <= 0) {
       exit(1);
     }
-    print("Bateria carregada");
+    print("Bateria esta em $carga");
   }
 }
