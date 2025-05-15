@@ -1,3 +1,5 @@
+import 'IIMC.dart';
+
 class IMC implements IIMC{
   tela(double resultado){
     print("O IMC é: $resultado");
@@ -10,6 +12,9 @@ class IMC implements IIMC{
     return parseDouble(peso);
   }
   double altura(String altura){
-    return parseDouble(altura)
+    return parseDouble(altura);
   }
+
+  @override
+  var Bateria;
 }

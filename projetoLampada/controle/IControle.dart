@@ -6,5 +6,5 @@ abstract class IControle {
   void ligar() {}
   void mais30m() {}
   void itensidade() {}
-  void ensiarSinal(int number, bool estado) {}
+  void ensiarSinal(int number) {}
 }
